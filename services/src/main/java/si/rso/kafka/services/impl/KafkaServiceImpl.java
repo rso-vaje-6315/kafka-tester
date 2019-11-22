@@ -14,7 +14,7 @@ import javax.inject.Inject;
 @ApplicationScoped
 public class KafkaServiceImpl implements KafkaService {
     
-    private static final Logger LOG = LogManager.getLogger(KafkaServiceImpl.class.getName());
+    private static final Logger LOG = LogManager.getLogger(KafkaServiceImpl.class.getSimpleName());
     
     @Inject
     @StreamProducer
@@ -33,6 +33,9 @@ public class KafkaServiceImpl implements KafkaService {
         producer.send(record, (metadata, exception) -> {
             if (exception != null) {
                 exception.printStackTrace();
+                LOG.error("Error producing message!");
+            } else {
+                LOG.info("Message successfully produced in Kafka!");
             }
         });
     }

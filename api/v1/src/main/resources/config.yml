@@ -5,6 +5,8 @@ kumuluzee:
     prod: false
     name: dev
   server:
+    http:
+      port: 8081
     show-server-info: false
     base-url: http://localhost:8080
   cors-filter:
@@ -47,6 +49,3 @@ kumuluzee:
         auto-offset-reset: earliest
         key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
         value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-  security:
-    keycloak:
-      json: '{}'

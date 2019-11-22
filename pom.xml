@@ -30,7 +30,7 @@
         <kumuluzee-openapi.version>1.0.1</kumuluzee-openapi.version>
         <jackson.version>2.9.9</jackson.version>
         <rso-rest.version>1.2.0</rso-rest.version>
-        <kumuluzee-streaming.version>1.1.0</kumuluzee-streaming.version>
+        <kumuluzee-streaming.version>1.2.0</kumuluzee-streaming.version>
         <rso-event-streaming.version>1.0.0-SNAPSHOT</rso-event-streaming.version>
     </properties>
 
