@@ -59,10 +59,6 @@
             <artifactId>kumuluzee-openapi-ui</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.kumuluz.ee.fault.tolerance</groupId>
-            <artifactId>kumuluzee-fault-tolerance-smallrye</artifactId>
-        </dependency>
-        <dependency>
             <groupId>si.rso.rest</groupId>
             <artifactId>rest-utils</artifactId>
         </dependency>

@@ -15,10 +15,6 @@
     <dependencies>
         <dependency>
             <groupId>si.rso.kafka</groupId>
-            <artifactId>persistence</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>si.rso.kafka</groupId>
             <artifactId>kafka-tester-lib-v1</artifactId>
         </dependency>
 
@@ -35,10 +31,6 @@
             <artifactId>kumuluzee-rest-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.kumuluz.ee.rest-client</groupId>
-            <artifactId>kumuluzee-rest-client</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.kumuluz.ee</groupId>
             <artifactId>kumuluzee-json-p-jsonp</artifactId>
         </dependency>
@@ -49,10 +41,6 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.keycloak</groupId>
-            <artifactId>keycloak-jetty94-adapter</artifactId>
         </dependency>
         <dependency>
             <groupId>si.rso.rest</groupId>
